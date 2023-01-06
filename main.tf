@@ -1,8 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "1.3.7"
+      region = "eu-west-2"
     }
   }
 }
